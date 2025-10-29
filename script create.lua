@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Blox Fruits"})
-     local Tab1o = MakeTab({Name = "Script Other Game"})
+     local Tab2o = MakeTab({Name = "Script Other Game"})
 
      
 ------- BUTTON
@@ -76,8 +76,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/
      Name = "99 Night in The Froest",
     Callback = function()
 	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
+  JoinTeam = ""; -- Pirates/Marines
+  Translator = false; -- true/false
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()  
@@ -95,3 +95,27 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/m
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua"))()
   end
   })
+
+     AddButton(Tab2o, {
+     Name = "Plants vs Brainrot (UB Hub)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = ""; -- Pirates/Marines
+  Translator = false; -- true/false
+}
+
+loadstring(game:HttpGet("https://gitlab.com/r_soft/main/-/raw/main/LoadUB.lua"))()
+  end
+  })
+
+     AddButton(Tab2o, {
+     Name = "Plants vs Brainrot (LDS Hub)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = ""; -- Pirates/Marines
+  Translator = false; -- true/false
+}
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SenhorLDS/ProjectLDSHUB/refs/heads/main/Loader%20LDS%20HUB'))()
+ end
+ })
