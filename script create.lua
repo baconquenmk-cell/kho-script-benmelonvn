@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "BenMelonVN Roblox",
-         Animation = "Youtube: BenMelonVN Roblox"
+         Animation = "Youtube: BenMelonVN"
          },
         Key = {
         KeySystem = false,
@@ -71,6 +71,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/
   end
   })
 
+        AddButton(Tab1o, {
+     Name = "Master Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/MasterHub.lua"))()
+  end
+  })
+
+
 
      AddButton(Tab2o, {
      Name = "99 Night in The Froest",
@@ -96,26 +109,51 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/d7be76c234d46c
   end
   })
 
-     AddButton(Tab2o, {
-     Name = "Plants vs Brainrot (UB Hub)",
+       AddButton(Tab2o, {
+     Name = "Steal a Brainrot (Find Server)",
     Callback = function()
 	  local Settings = {
   JoinTeam = ""; -- Pirates/Marines
   Translator = false; -- true/false
 }
 
-loadstring(game:HttpGet("https://gitlab.com/r_soft/main/-/raw/main/LoadUB.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/049dc8b14207dcca7e0f9812e1960141.lua"))() 
+  end
+  })
+
+
+
+     AddButton(Tab2o, {
+     Name = "Steal a Brainrot (Kurd Hub)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = ""; -- Pirates/Marines
+  Translator = false; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))()
   end
   })
 
      AddButton(Tab2o, {
-     Name = "Plants vs Brainrot (LDS Hub)",
+     Name = "Plants vs Brainrot (Zenith Hub)",
     Callback = function()
 	  local Settings = {
   JoinTeam = ""; -- Pirates/Marines
   Translator = false; -- true/false
 }
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/SenhorLDS/ProjectLDSHUB/refs/heads/main/Loader%20LDS%20HUB'))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/isightz/bladeball-scripts/refs/heads/main/ZyxHub", true))()
+ })
+
+    AddButton(Tab2o, {
+     Name = "Plants vs Brainrot (DUPE)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = ""; -- Pirates/Marines
+  Translator = false; -- true/false
+}
+
+loadstring(game:HttpGet("https://pastefy.app/mzVQeKxE/raw"))()
  end
  })
