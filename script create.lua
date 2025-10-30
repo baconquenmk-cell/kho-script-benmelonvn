@@ -83,32 +83,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/
   end
   })
 
-
-
-     AddButton(Tab2o, {
-     Name = "99 Night in The Froest",
-    Callback = function()
-	  local Settings = {
-  JoinTeam = ""; -- Pirates/Marines
-  Translator = false; -- true/false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()  
-  end
-  })
-
-     AddButton(Tab2o, {
-     Name = "Plants vs Brainrot",
-    Callback = function()
-	  local Settings = {
-  JoinTeam = ""; -- Pirates/Marines
-  Translator = false; -- true/false
-}
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua"))()
-  end
-  })
-
        AddButton(Tab2o, {
      Name = "Steal a Brainrot (Find Server)",
     Callback = function()
@@ -136,6 +110,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/he
   })
 
      AddButton(Tab2o, {
+     Name = "Steal a Brainrot (Vietnamese Hub)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = ""; -- Pirates/Marines
+  Translator = false; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/replit8173/VietnamHub/refs/heads/main/VietnamseHub.lua", true))()  end
+  })
+
+     AddButton(Tab2o, {
      Name = "Plants vs Brainrot (Zenith Hub)",
     Callback = function()
 	  local Settings = {
@@ -144,6 +129,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/he
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/isightz/bladeball-scripts/refs/heads/main/ZyxHub", true))()
+ end
  })
 
     AddButton(Tab2o, {
