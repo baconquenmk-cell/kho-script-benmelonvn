@@ -6,11 +6,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Youtube: BenMelonVN"
          },
         Key = {
-        KeySystem = false,
+        KeySystem = true,
         Title = "Key System",
         Description = "",
         KeyLink = "",
-        Keys = {"1234"},
+        Keys = {"5V3G3ESG"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -30,8 +30,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Blox Fruits"})
-     local Tab2o = MakeTab({Name = "Script Other Game"})
+     local Tab1o = MakeTab({Name = "Blox Fruits"})
+     local Tab2o = MakeTab({Name = "Steal a Brainrot"})
+     local Tab3o = MakeTab({Name = "Brainrots Seas"})
 
      
 ------- BUTTON
@@ -117,29 +118,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/he
   Translator = false; -- true/false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/replit8173/VietnamHub/refs/heads/main/VietnamseHub.lua", true))()  end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/replit8173/VietnamHub/refs/heads/main/VietnamseHub.lua", true))()  
+  end
   })
 
-     AddButton(Tab2o, {
-     Name = "Plants vs Brainrot (Zenith Hub)",
+     AddButton(Tab3o, {
+     Name = "Brainrot Seas",
     Callback = function()
 	  local Settings = {
   JoinTeam = ""; -- Pirates/Marines
   Translator = false; -- true/false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/isightz/bladeball-scripts/refs/heads/main/ZyxHub", true))()
- end
- })
-
-    AddButton(Tab2o, {
-     Name = "Plants vs Brainrot (DUPE)",
-    Callback = function()
-	  local Settings = {
-  JoinTeam = ""; -- Pirates/Marines
-  Translator = false; -- true/false
-}
-
-loadstring(game:HttpGet("https://pastefy.app/mzVQeKxE/raw"))()
- end
- })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/BrainrotSeas"))()  
+  end
+  })
