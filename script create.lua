@@ -10,7 +10,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "Key System",
         Description = "",
         KeyLink = "",
-        Keys = {"5V3G3ESG"},
+        Keys = {"TETNGUYENDAN2026"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -84,6 +84,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/
   end
   })
 
+         AddButton(Tab1o, {
+     Name = "TSG x Ben Hub (Script Made by TSG and Ben)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/baconquenmk-cell/kho-script-benmelonvn/refs/heads/main/tsgavabenhub.txt"))()
+  end
+  })
+
+
        AddButton(Tab2o, {
      Name = "Steal a Brainrot (Find Server)",
     Callback = function()
@@ -119,6 +132,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/he
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/replit8173/VietnamHub/refs/heads/main/VietnamseHub.lua", true))()  
+  end
+  })
+
+       AddButton(Tab2o, {
+     Name = "Steal a Brainrot (Aurora)",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = ""; -- Pirates/Marines
+  Translator = false; -- true/false
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c2e485181b4b948563c128a147224546.lua"))()
   end
   })
 
