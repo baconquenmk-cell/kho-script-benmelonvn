@@ -10,7 +10,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "Key System",
         Description = "",
         KeyLink = "",
-        Keys = {"TETNGUYENDAN2026"},
+        Keys = {"HAPPYNOEL2025"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -32,7 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Blox Fruits"})
      local Tab2o = MakeTab({Name = "Steal a Brainrot"})
-     local Tab3o = MakeTab({Name = "Brainrots Seas"})
+     local Tab3o = MakeTab({Name = "99 Night In The Forest"})
 
      
 ------- BUTTON
@@ -148,13 +148,12 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c2e485181b4b94
   })
 
      AddButton(Tab3o, {
-     Name = "Brainrot Seas",
+     Name = "99 Night In The Froest (Vape Voidware)",
     Callback = function()
 	  local Settings = {
-  JoinTeam = ""; -- Pirates/Marines
-  Translator = false; -- true/false
+  JoinTeam = ""; 
+  Translator = false; 
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/BrainrotSeas"))()  
-  end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()  end
   })
